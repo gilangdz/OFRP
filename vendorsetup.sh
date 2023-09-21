@@ -69,7 +69,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_VARIANT=Stable
 	export OF_PATCH_AVB20=1
 	export OF_MAINTAINER="GilangeageaXD"
-	export FOX_ADVANCED_SECURITY=1
+	export OF_ADVANCED_SECURITY=1
 	export OF_USE_TWRP_SAR_DETECT=1
 
 	# run a process after formatting data to work-around MTP issues
