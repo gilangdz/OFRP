@@ -130,7 +130,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # AB
-AB_OTA_UPDATER := false
+AB_OTA_UPDATER := true
 
 # Workaround for copying error vendor files to recovery ramdisk
 TARGET_COPY_OUT_PRODUCT := product
